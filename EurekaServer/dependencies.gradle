@@ -1,0 +1,16 @@
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    implementation (
+//            'io.zipkin.java:zipkin-server:2.11.1',
+//            'io.zipkin.java:zipkin-autoconfigure-ui:2.11.1',
+            'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:2.0.1.RELEASE',
+            'org.springframework.cloud:spring-cloud-dependencies:Finchley.RELEASE'
+    )
+    testImplementation (
+            'junit:junit:4.+'
+    )
+}
